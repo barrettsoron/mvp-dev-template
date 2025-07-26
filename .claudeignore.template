@@ -1,14 +1,11 @@
-# Movement Project .claudeignore Template
-# This file tells AI assistants which files to ignore when analyzing your codebase
-# Prevents token waste and potential security issues
-
 # Dependencies
 node_modules/
 .pnpm-store/
 .yarn/
 vendor/
-venv/
-.env/
+__pycache__/
+.venv/
+env/
 
 # Build outputs
 dist/
@@ -17,20 +14,18 @@ out/
 .next/
 .nuxt/
 .output/
-__pycache__/
-*.pyc
+target/
 
 # Environment and secrets
 .env
-.env.*
-!.env.example
-!.env.template
+.env.local
+.env.*.local
 *.key
 *.pem
 *.p12
 *.pfx
-credentials/
 secrets/
+.secrets
 
 # Logs
 *.log
@@ -42,7 +37,6 @@ logs/
 .parcel-cache/
 .eslintcache
 .stylelintcache
-.pytest_cache/
 
 # IDE and editor files
 .vscode/
@@ -50,7 +44,6 @@ logs/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # OS generated files
 .DS_Store
@@ -73,7 +66,7 @@ temp/
 *.rar
 *.7z
 
-# Large media files (adjust based on project needs)
+# Large media files
 *.mp4
 *.mov
 *.avi
@@ -81,110 +74,34 @@ temp/
 *.mp3
 *.wav
 *.flac
-
-# Images (keep or remove based on project needs)
-# *.png
-# *.jpg
-# *.jpeg
-# *.gif
-# *.webp
-# *.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
 
 # Database files
 *.db
 *.sqlite
 *.sqlite3
-data/
-backups/
 
-# Test artifacts
-coverage/
-.coverage
-htmlcov/
-test-results/
-playwright-report/
-
-# Documentation builds
-docs/_build/
-site/
-
-# Package manager lock files (optional - uncomment if needed)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-# Pipfile.lock
+# Backup files
+*.bak
+*.backup
+*~
 
 # Version control
 .git/
 .svn/
 .hg/
 
-# Project-specific ignores (customize for your project)
-# private/
-# internal/
-# archive/processed/
-# generated/
+# Movement project specific
+archive/
+reference/inspiration.md
+personal-notes/
 
-# Security-sensitive paths
-auth/
-certificates/
-.well-known/
-
-# Movement-specific considerations
-# Ignore any surveillance or tracking code
-analytics/
-tracking/
-# Ignore corporate platform integrations if not essential
-# facebook-sdk/
-# google-analytics/
-
-# Large data files
-*.csv
-*.xlsx
-*.xls
-raw-data/
-
-# Backup files
-*.bak
-*.backup
-*~
-*.orig
-
-# Compiled source
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Terraform files (if using infrastructure as code)
-*.tfstate
-*.tfstate.*
-.terraform/
-
-# Ansible files (if using configuration management)
-*.retry
-ansible/vault/
-
-# Container files
-docker-compose.override.yml
-.dockerignore
-
-# ===================
-# Project Customization Section
-# ===================
-# Add your project-specific ignores below this line
-# Remember to document why certain paths are ignored
-
-# Example for campaign tools:
-# voter-data/  # Sensitive constituent information
-# financial-reports/  # Compliance-sensitive data
-
-# Example for mutual aid platforms:
-# recipient-details/  # Privacy-critical information
-# distribution-logs/  # Temporary operational data
-
-# Example for union tools:
-# member-lists/  # Protected organizing information
-# negotiation-docs/  # Confidential strategy documents
+# Package manager lock files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

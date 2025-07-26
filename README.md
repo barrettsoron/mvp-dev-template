@@ -1,127 +1,48 @@
 # Movement Project Template
 
-A reusable organizational framework for progressive technology projects, built with movement values at its core.
+[![Hippocratic License HL3-BDS-ECO-FFD](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-BDS-ECO-FFD&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/bds-eco-ffd.html)
 
-## What This Template Provides
+A streamlined organizational framework for progressive technology projects that embeds movement values into development workflows.
 
-### Organizational Patterns
-- **Process-oriented documentation** that adapts to your project domain
-- **Decision tracking workflows** that create institutional memory
-- **Security-as-process** approach with regular review cycles
-- **Task management philosophy** that cascades from strategic to tactical
+## What You Get
 
-### Core Values Embedded
-- Democratic technology choices
-- Data sovereignty and community ownership
-- Privacy-preserving defaults
-- Accessibility-first design
-- Canadian political context awareness
+**Organizational Infrastructure**: Decision tracking, security-as-process, task management patterns that scale from solo projects to coalition work.
 
-## Template Structure
+**Movement Values**: Anti-surveillance design, community ownership, privacy-first development, and democratic technology choices.
 
-```
-movement-project-template/
-├── README.md                     # This file
-├── organizational-patterns.md    # Core workflows and principles
-├── setup-guide.md               # How to adapt this template
-├── CLAUDE.template.md           # AI assistant context template
-├── CHANGELOG.template.md        # Keep a Changelog format
-├── .claudeignore.template       # Standard ignore patterns
-├── tasks/                       # Documentation framework
-│   ├── README.md               # Documentation guide
-│   ├── todo.template.md        # Active task tracking
-│   ├── decisions.template.md   # Technical decisions journal
-│   ├── security.template.md    # Security review process
-│   └── archive/                # Completed work patterns
-└── examples/                   # Domain adaptation examples
-    ├── campaign-crm/           # Political campaign CRM
-    ├── organizing-toolkit/     # Community organizing tools
-    ├── mutual-aid-platform/    # Mutual aid coordination
-    └── union-website/          # Union digital infrastructure
-```
+**Practical Templates**: Ready-to-use task tracking, decision logs, security checklists, and AI assistant context.
 
 ## Quick Start
 
-1. **Copy this template** to your new project directory
-2. **Review the setup guide** at `setup-guide.md`
-3. **Study relevant examples** in the `examples/` directory
-4. **Adapt the templates** to your specific domain and context
-5. **Maintain the workflows** as you develop your project
+1. **Copy this template** to your project directory
+2. **Read [`docs/index.md`](docs/index.md)** for navigation and setup
+3. **Copy templates** from `templates/` as needed
+4. **Adapt patterns** from `docs/patterns.md` to your domain
 
-## Core Principles
+## Template Structure
 
-### 1. Documentation as Infrastructure
-Your documentation IS your organizational infrastructure. It should:
-- Guide decision-making processes
-- Create institutional memory
-- Enable democratic participation
-- Support movement building
-
-### 2. Process Over Product
-This template emphasizes:
-- HOW you organize work (workflows)
-- WHY you make decisions (rationale)
-- WHO benefits from choices (politics)
-- WHAT values guide development (movement alignment)
-
-### 3. Adaptable Yet Consistent
-While each project has unique needs:
-- Core workflows remain consistent
-- Movement values stay central
-- Security practices are non-negotiable
-- Documentation standards persist
-
-## What Makes This Different
-
-### Movement-Centered Design
-- Built BY organizers FOR organizers
-- Embeds anti-surveillance principles
-- Prioritizes community ownership
-- Challenges extractive tech patterns
-
-### Canadian Context Aware
-- Bilingual considerations built-in
-- Privacy legislation compliance (PIPEDA/CASL)
-- Electoral law awareness
-- Regional hosting considerations
-
-### Security Through Process
-- Regular security review cycles
-- Threat model documentation
-- Privacy-preserving defaults
-- Community data sovereignty
-
-## Getting Help
-
-### Understanding the Template
-- Start with `organizational-patterns.md` for core concepts
-- Review `setup-guide.md` for adaptation instructions
-- Study examples that match your use case
-
-### Customization Support
-This template is designed to be self-documenting. Each file includes:
-- Purpose statements
-- Adaptation instructions
-- Multiple examples
-- Decision rationale
-
-## Contributing
-
-This template evolves through use. When you:
-- Discover new patterns that work
-- Adapt workflows to new domains
-- Improve security practices
-- Enhance accessibility
-
-Consider contributing back to help other movement projects.
+```text
+movement-project-template/
+├── docs/
+│   ├── index.md        # Start here - navigation hub
+│   ├── patterns.md     # Core workflows and principles  
+│   └── reference.md    # Domain adaptation examples
+├── templates/
+│   ├── CLAUDE.md       # AI assistant context
+│   ├── CHANGELOG.md    # Release documentation
+│   └── tasks/          # Task management templates
+└── LICENSE             # Hippocratic License HL3-BDS-ECO-FFD
+```
 
 ## License
 
-This template is released under a license that ensures:
-- Free use by movement organizations
-- Attribution to maintain genealogy
-- Share-alike to build commons
-- Non-commercial to prevent extraction
+Licensed under [Hippocratic License HL3-BDS-ECO-FFD](LICENSE) - permits use by movement organizations while prohibiting harmful applications including human rights violations, environmental destruction, and supporting oppression.
+
+## Creator
+
+Created by **Mike Barrett Soron** at [Sword Fern Digital](https://swordfern.digital) - a strategy and infrastructure studio for movements that care.
+
+Based on organizing patterns developed through movement technology projects in Vancouver, BC.
 
 ---
 
